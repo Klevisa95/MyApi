@@ -1,0 +1,23 @@
+KLASAT 1-7 me sohel jane ne cucumber dhe notes jane cucumber.
+Klasa 8 review me mozzam eshte projekt i ri, vazhdon ketu.
+
+
+STEP by step:
+Send base uri (apiexamples
+Send token (generate new one if its more than 12 hr)
+
+
+DESERIALIZATION --> the process of converting a String to Json object.
+SERIALIZATION  --> the process of converting a Json object to String.
+
+ORGANIZE FRAMEWORK API:
+pom.xml -->
+resources --> here we have the feature file
+CONSTANTS--> (things that don't change) "Content - Type", "application/json", "Authorization", "End points"
+API Payload --> a function that return us the body (so we dont have to write it all the time long way)
+UTILS --> apiConstants, payloads, file reader.
+STEPS --?step definition.
+RUNNER --? runnerClass.
+Test Data --> here we have a file that contains payloads for different creation of employee.
+
+VIDEO 8 - 2:24
